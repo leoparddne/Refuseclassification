@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Refuseclassification</name>
+    </assembly>
+    <members>
+        <member name="T:Refuseclassification.Controllers.RecordController">
+            <summary>
+            获取记录数据
+            </summary>
+        </member>
+        <member name="M:Refuseclassification.Controllers.RecordController.#ctor(Repository.IRepository.IRecordTypeRepository,Repository.IRepository.IRecordRepository,Repository.IRepository.IUnitOfWork)">
+            <summary>
+            
+            </summary>
+            <param name="typeService"></param>
+            <param name="recordService"></param>
+            <param name="db"></param>
+        </member>
+        <member name="M:Refuseclassification.Controllers.RecordController.GetAll">
+            <summary>
+            获取所有垃圾分类的数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Refuseclassification.Controllers.RecordController.GetPage(System.Int32,System.Int32)">
+            <summary>
+            获取分页数据
+            </summary>
+            <param name="page"></param>
+            <param name="pageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Refuseclassification.Controllers.RecordController.GetPageByType(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            根据类型获取分页数据
+            </summary>
+            <param name="type">类型</param>
+            <param name="page"></param>
+            <param name="pageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Refuseclassification.Controllers.RecordController.Search(System.String)">
+            <summary>
+            查询指定的物品的分类
+            </summary>
+            <param name="name">需要搜索的关键字,支持模糊搜索</param>
+            <returns></returns>
+        </member>
+        <member name="T:Refuseclassification.Controllers.TypeController">
+            <summary>
+            获取类型数据
+            </summary>
+        </member>
+        <member name="M:Refuseclassification.Controllers.TypeController.#ctor(Repository.IRepository.IRecordTypeRepository)">
+            <summary>
+            类型数据
+            </summary>
+            <param name="typeService"></param>
+        </member>
+        <member name="M:Refuseclassification.Controllers.TypeController.GetAll">
+            <summary>
+            获取所有类型:干垃圾、湿垃圾 etc.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Refuseclassification.Controllers.ValuesController.Get">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

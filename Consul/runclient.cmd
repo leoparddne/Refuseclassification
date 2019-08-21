@@ -1,0 +1,1 @@
+consul agent -data-dir ./data -node=c1 -bind=192.168.1.13 -config-dir=./cfg -join 192.168.1.5

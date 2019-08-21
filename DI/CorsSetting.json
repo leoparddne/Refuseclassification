@@ -1,0 +1,15 @@
+{
+  "Cors": [
+    "localhost",
+    "http://localhost:6610",
+    "http://localhost:6600",
+    "http://localhost:3000",
+    "http://localhost:8000",
+    "http://192.168.1.5:3000",
+    "http://www.tianlefudao.com:80",
+    "http://www.tianlefudao.com",
+    "http://activity.tianlefudao.com",
+    "http://adminbi.tianlefudao.com",
+    "http://www.tianlefudao.com:8090"
+  ]
+}

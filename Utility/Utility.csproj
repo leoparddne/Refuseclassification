@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>ives</Authors>
+    <Company />
+    <Product>Common Class Library</Product>
+    <Description>CCL(Common Class Library) contains log engine(Log)、utc time convert(TimeUtility)、set&amp;return unified global null string(StringExtend),excel helper(ExcelHelper),get enum's DescriptionAttribute(EnumHelper)
+CCL（公共类库）包含日志引擎(Log)、UTC时间转换(TimeUtility)、设置和返回统一的全局空字符串功能(StringExtend)、excel帮助类(ExcelHelper)、获取枚举的描述信息(EnumHelper)</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageLicenseUrl></PackageLicenseUrl>
+    <PackageId>CCLUtility</PackageId>
+    <RootNamespace>CCLUtility</RootNamespace>
+    <Version>1.0.0.3</Version>
+    <PackageProjectUrl>https://github.com/leoparddne/CommonSln/wiki/CCLUtility</PackageProjectUrl>
+    <AssemblyVersion>1.0.0.2</AssemblyVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="aliyun-net-sdk-core" Version="1.5.1" />
+    <PackageReference Include="aliyun-net-sdk-dysmsapi" Version="1.0.0" />
+    <PackageReference Include="AutoMapper" Version="8.1.1" />
+    <PackageReference Include="EPPlus.Core" Version="1.5.4" />
+    <PackageReference Include="log4net" Version="2.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.AspNetCore.Mvc.ViewFeatures">
+      <HintPath>C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.aspnetcore.mvc.viewfeatures\2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Mvc.ViewFeatures.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="App.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

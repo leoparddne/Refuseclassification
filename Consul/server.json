@@ -1,0 +1,41 @@
+{
+  "encrypt": "7TnJPB4lKtjEcCWWjN6jSA==",
+  "services": [
+    {
+      "id": "TianLeClass",
+      "name": "TianLeClass",
+      "tags": [ "TianLeClass" ],
+      "address": "localhost",
+      "port": 6600,
+      "checks": [
+        {
+          "id": "TianLeClass",
+          "name": "TianLeClass",
+          "http": "http://localhost:6600/health",
+          "interval": "10s",
+          "tls_skip_verify": false,
+          "method": "GET",
+          "timeout": "1s"
+        }
+      ]
+    },
+    {
+      "id": "TianLeAuth",
+      "name": "TianLeAuth",
+      "tags": [ "TianLeAuth" ],
+      "address": "localhost",
+      "port": 6610,
+      "checks": [
+        {
+          "id": "TianLeAuth",
+          "name": "TianLeAuth",
+          "http": "http://localhost:6610/health",
+          "interval": "10s",
+          "tls_skip_verify": false,
+          "method": "GET",
+          "timeout": "1s"
+        }
+      ]
+    }
+  ]
+}
