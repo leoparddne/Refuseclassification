@@ -22,7 +22,7 @@ CCL（公共类库）包含日志引擎(Log)、UTC时间转换(TimeUtility)、�
     <PackageReference Include="aliyun-net-sdk-dysmsapi" Version="1.0.0" />
     <PackageReference Include="AutoMapper" Version="8.1.1" />
     <PackageReference Include="EPPlus.Core" Version="1.5.4" />
-    <PackageReference Include="log4net" Version="2.0.8" />
+    <PackageReference Include="log4net" Version="2.0.10" />
   </ItemGroup>
 
   <ItemGroup>
